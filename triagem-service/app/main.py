@@ -8,6 +8,7 @@ use_case = RealizarTriagemUseCase()
 class TriagemRequest(BaseModel):
     paciente_id: int
     temperatura: float
+    peso: float
     pressao_sistolica: int
     dor_peito: bool
 
